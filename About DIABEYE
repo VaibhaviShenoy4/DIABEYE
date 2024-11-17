@@ -1,0 +1,36 @@
+Introduction
+Diabetic Retinopathy (DR) is one of the leading causes of vision impairment and blindness among diabetic patients worldwide. 
+Accurate and timely detection of DR can help in early intervention, significantly reducing the risk of severe outcomes. 
+This project focuses on developing and evaluating a comprehensive deep learning framework, DIABEYE, to classify DR using retinal fundus images. We explore datasets from the coastal region of Mangalore, Karnataka, for real-time applicability and compare model performances across various datasets.
+
+Problem Statement
+Diabetic Retinopathy detection often suffers from reduced accuracy due to the lack of regional specificity and diverse datasets.
+There is a need for a reliable and accurate system that performs well on real-time data from specific geographic regions, such as the coastal area of Mangalore. Current methods lack comprehensive evaluation across diverse datasets.
+
+Objective
+To design a robust diabetic retinopathy classification system that enhances accuracy for real-time datasets collected from the coastal region of Mangalore while performing a comparative analysis of four pre-trained deep learning models:
+DenseNet121, MobileNet, VGG16, and InceptionV3.
+
+Methodology
+1) Data Collection:
+   - Real-time dataset from KS Hegde Hospital
+   - Kaggle dataset with labeled severity levels
+   - Merged dataset combining Kaggle and real-time data
+2) Models Used for Comparative Study:
+   - DenseNet121
+   - MobileNet
+   - VGG16
+   - InceptionV3
+3) Training and Evaluation:
+The models were trained and tested on the three datasets: Real-time, Kaggle, and Merged.
+Accuracy metrics were evaluated to identify the best-performing model.
+
+Results
+DenseNet121 consistently outperformed the other models across all datasets, achieving the highest accuracy for the real-time data. This performance can be attributed to the similarity between the real-time and merged dataset's geographic region, highlighting the importance of dataset relevance.
+Future Scope
+1. Dataset Expansion: Incorporate more real-time data from diverse geographic regions.
+2. Model Optimization: Explore ensemble techniques and fine-tuning for further accuracy improvement.
+3. Deployment: Develop an integrated web-based or mobile-friendly application for clinical use.
+4. Explainability: Implement visualization techniques like Grad-CAM for better model interpretability in medical applications.
+
+
